@@ -1,0 +1,57 @@
+body{
+    background-color: #f2e5d9;
+    font-family: 'Amita', cursive;
+    background-image: url('indexbackground.jpg');
+    }
+
+.content{
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+h1{
+    font-size: 100px;
+    color: #ffffff;
+    opacity: 0.3;
+    }
+
+p{
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.3;
+}
+
+button{
+    width: 100px;
+    background: transparent;
+    border: 3px solid #f2e5d9;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    margin-top: 25px;
+    opacity: 0.6;
+    }
+
+.center-content{
+    position: relative;
+    width: 100%;
+    display: inline-flexbox;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: auto;
+
+    }
+
+a{
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f2e5d9;
+    }

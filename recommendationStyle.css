@@ -1,0 +1,30 @@
+body{
+	background-color: #f2e5d9 /*háttér*/;
+	color: #0000b3/*szöveg */;
+	/*font-family: "Times New Roman";*/
+	font-family: 'Amita', cursive;
+	font-size: 30px;
+	margin: 10px auto;
+}
+
+.companyName{
+	margin-top: 50px;
+}
+
+iframe{
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+  	margin-right: auto;	
+  	width: 850px;
+  	height: 500px;
+}
+
+
+@media only screen and (max-width: 1000px){
+	iframe{
+		width: 95%;
+	}
+
+}
